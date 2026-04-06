@@ -23,7 +23,7 @@ function Project() {
   const fetchnews = async () => {
     try{
     const res = await axios.get (
-      `https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY`
+      `https://newsapi.org/v2/top-headlines?country=us&apiKey=6ff650ba71f8450c83965d7d0cb3c01a`
     );
     setNews(res.data.articles);
   }
